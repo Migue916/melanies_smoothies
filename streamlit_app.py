@@ -22,6 +22,8 @@ ingredients_list = st.multiselect(
     max_selections=5 # This is the key addition
 )
 
+pd_df=my_dataframe.to_pandas() 
+
 if ingredients_list:
     ingredients_string = ''
 
